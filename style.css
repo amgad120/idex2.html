@@ -1,0 +1,159 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  padding: 20px;
+    background-image: url('./download\ \(9\).jpg'); 
+  background-size: cover;
+  background-position: center;
+
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 2rem;
+}
+
+#addBtn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#addBtn:hover {
+  background-color: #e9fb216d;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 1rem;
+}
+
+th {
+  background-color: #021402;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f96d;
+}
+
+tr:hover {
+  background-color: #878c8755;
+}
+
+button {
+  padding: 6px 10px;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.update-btn {
+  background-color: #36f321;
+  color: white;
+  border: none;
+  font-size: 0.9rem;
+}
+.update-btn:hover {
+  background-color: #2e8513;
+}
+
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  font-size: 0.9rem;
+}
+.delete-btn:hover {
+  background-color: #ab1a17;
+}
+
+
+.hidden {
+  display: none;
+}
+
+#formContainer {
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 30px;
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;
+  z-index: 999;
+}
+
+#formContainer h2 {
+  text-align: center;
+  color: #333;
+}
+
+#userForm input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.submit {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  font-size: 1.2rem;
+}
+
+.submit:hover {
+  background-color: #05660a;
+}
+
+#cancelBtn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  font-size: 1.2rem;
+}
+
+#cancelBtn:hover {
+  background-color: #630403;
+}
